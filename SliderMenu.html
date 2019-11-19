@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Slider Menu | Carousel</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<!-- Slider Container -->
+	<div class="container">
+		<!-- Slider -->
+		<div class="sliderImg">
+			<!-- Slider Img -->
+		  	<img src="img/fries.jpg" alt="french fries">
+		  	<!-- Slider Text -->
+		  	<div class="text">Friend Fries</div>
+		</div>
+		<div class="sliderImg">
+		  	<img src="img/grilled_liempo.jpg" alt="grilled liempo">
+		  	<div class="text">Grilled Liempo</div>
+		</div>
+		<div class="sliderImg">
+		  	<img src="img/grilled_squid.jpg" alt="grilled squid">
+		  	<div class="text">Grilled Squid</div>
+		</div>
+		<div class="sliderImg">
+		  	<img src="img/nachos.jpg" alt="nachos">
+		  	<div class="text">Nachos</div>
+		</div>
+		<div class="sliderImg">
+		  	<img src="img/porterhouse.jpg" alt="porterhouse">
+		  	<div class="text">Porterhouse</div>
+		</div>
+		<div class="sliderImg">
+		  	<img src="img/salad.jpg" alt="salad">
+		  	<div class="text">Salad</div>
+		</div>
+		<div class="sliderImg">
+		  	<img src="img/spareribs.jpg" alt="beef spareribs">
+		  	<div class="text">Beef Spareribs</div>
+		</div>
+		<div class="sliderImg">
+		  	<img src="img/liquors.jpg" alt="liquors">
+		  	<div class="text">Liquirs</div>
+		</div>
+
+		<!-- Prev / Next Buttons -->
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+		<!-- Navigational Dots -->
+		<div class="dots">
+			<span class="dot" onclick="currentSlide(1)"></span> 
+			<span class="dot" onclick="currentSlide(2)"></span> 
+			<span class="dot" onclick="currentSlide(3)"></span> 
+			<span class="dot" onclick="currentSlide(4)"></span> 
+			<span class="dot" onclick="currentSlide(5)"></span> 
+			<span class="dot" onclick="currentSlide(6)"></span> 
+			<span class="dot" onclick="currentSlide(7)"></span> 
+			<span class="dot" onclick="currentSlide(8)"></span> 
+		</div>
+	</div>
+
+
+	<!-- scripts -->
+	<script src="carouselScript.js"></script>
+</body>
+</html>
